@@ -1,0 +1,73 @@
+<html>
+<head>
+	<!-- Metas tag -->
+	<meta charset="utf-8">
+	
+	<!-- Css -->
+	<link rel="stylesheet" type="text/css" href="https://jmjuanes.github.io/api/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- Script -->
+	<script type="text/javascript" src="https://jmjuanes.github.io/jmCanvas.js/jmCanvas.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+	<!-- Titulo -->
+	<title>base64 image encoder</title>
+	
+</head>
+<body>
+	
+	<!-- Presentacion -->
+	<div class="home" align="center">
+	
+		<!-- Screen 1 -->
+		<div id="screen1" style="display:block;">
+			
+			<!-- Espacios -->
+			<br><br><br><br>
+			
+			<!-- Logo -->
+			<span class="h1">base64</span><br><br>
+			
+			<!-- Texto -->
+			<span class="h2">Online base 64 image enconder.</span><br><br>
+			
+			<!-- Boton -->
+			<div class="home-btn" onclick="Base64.GetImg();">Select an image</div><br>
+			
+			<!-- Input -->
+			<input id="upload" type="file" onchange="Base64.LoadImg();" style="display:none;">
+			
+			<!-- Espacios -->
+			<br><br><br><br>
+			
+		</div>
+		
+		<!-- Screen 2 -->
+		<div id="screen2" style="display:none;" align="center">
+			
+			<!-- Boton cerrar -->
+			<div class="close" onclick="Base64.OpenClose();"></div><br>
+			
+			<!-- Texto -->
+			<span class="h2">Your image in base64:</span><br><br>
+			
+			<!-- Copiar -->
+			<span class="h3" onclick="Base64.Copy();">Copy to clipboard</span><br><br>
+			
+			<!-- Contenedor -->
+			<textarea id="textarea" class="textarea"></textarea>
+			
+			<!-- Canvas oculto -->
+			<canvas id="canvas" style="display:none;"></canvas>
+			
+			
+		</div>
+		
+	</div>
+	
+	<!-- Pie de pagina -->
+	<a href="http://www.jmjuanes.es" class="pie" target="_blank">Copyright 2015 jmjuanes.es</a>
+	
+</body>
+</html>

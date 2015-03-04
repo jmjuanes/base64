@@ -1,0 +1,67 @@
+/* Body
+==================================================================== */
+
+/* Background */
+body { background-color: #ffffff; } 
+
+/* Margin and padding */
+body { margin: 0px; padding: 0px; } 
+
+/* Font */
+body { color: #ffffff; font-family: Montserrat; font-size: 20px; } 
+
+/* Headers 
+==================================================================== */
+
+.h1 { font-size: 50px; } 
+.h2 { font-size: 26px; } 
+.h3 { font-size: 16px; } 
+
+
+/* Home
+==================================================================== */
+
+/* Display */
+.home { width: 100%; display: block; } 
+
+/* Background */
+.home { background: radial-gradient(ellipse at 100% 100%, #e74c3c 20%, #e67e22); } 
+
+/* Padding */
+.home { padding-top: 100px; padding-bottom: 100px; } 
+
+/* Button */
+.home-btn { display: block; width: 350px; height: 60px; } 
+.home-btn { font-size: 20px; color: #ffffff; } 
+.home-btn { line-height: 57px; background-color: transparent; } 
+.home-btn { border: 3px solid #ffffff; border-radius: 15px; } 
+.home-btn:hover { background-color: rgba(255, 255, 255, 0.5); } 
+
+/* Close icon */
+.close { width: 60px; height: 60px; display: block; } 
+.close { background-image: url('../img/cross.png'); } 
+.close { background-repeat: no-repeat; background-size: 60px 60px; } 
+
+/* Textarea */
+.textarea { width: 500px; height: 400px; color: #ffffff; } 
+.textarea { overflow: hidden; font-size: 15px; display: block; } 
+.textarea { background-color: #e67e22; border: 1px solid #ffffff; } 
+.textarea { padding: 20px; border-radius: 10px; border: 0px; } 
+
+
+/* Pie
+==================================================================== */
+
+/* Display */
+.pie { width: 100%; display: block; } 
+
+/* Padding */
+.pie { padding-top: 50px; padding-bottom: 50px; } 
+
+/* Texto */
+.pie { color: #e67e22; font-size: 18px; text-align: center; } 
+.pie { text-decoration: none; } 
+
+/* Background */
+.pie { background-color: #ffffff; } 
+
