@@ -1,7 +1,7 @@
 # base64
 Online base 64 image encoder.
 
-Try it -> [base64.jmjuanes.es](http://base64.jmjuanes.es/)
+Try it -> [jmjuanes.github.io/base64](https://jmjuanes.github.io/base64)
 
 ## License
 
